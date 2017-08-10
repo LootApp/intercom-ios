@@ -1,5 +1,47 @@
 # Intercom
 
+## 3.2.11 (2017-08-04)
+
+## Bug Fixes
+
+* Fixed issue with "Tell us more" button for conversation ratings.
+
+## 3.2.10 (2017-08-04)
+
+## Bug Fixes
+
+* Fixed issues where `setUserHash` could behave incorrectly when `reset` is called (fixes [#279](https://github.com/intercom/intercom-ios/issues/279)).
+* Fixed issue where device tokens may not be deleted on `reset` if using identity verification.
+* Fixed crash that could occur when exiting and re-entering a conversation after sending an image.
+
+### Enhancements
+
+* Added native support for conversation ratings. You can read more about conversation ratings [here](https://docs.intercom.com/responding-to-users-and-visitors/see-your-team-s-progress/measure-customer-satisfaction-with-conversation-ratings).
+
+## 3.2.9 (2017-07-11)
+
+## Bug Fixes
+
+* Fixed an issue where events could be incorrectly transferred when switching users (Fixes [#276](https://github.com/intercom/intercom-ios/issues/276)).
+* Fixed an edge case where registering a user immeditately after logging an event may fail.
+
+## 3.2.8 (2017-06-30)
+
+## Bug Fixes
+
+* Fixed remaining issues that could occur when logging events at the same time as registration.
+
+## Bug Fixes
+
+## 3.2.7 (2017-06-28)
+
+## Bug Fixes
+
+* Fixed issue where `UIApplication` could be accessed from the main thread ([#271](https://github.com/intercom/intercom-ios/issues/271)).
+* Some improvements to help track the cause of [#256](https://github.com/intercom/intercom-ios/issues/265).
+* Fixed issue where logging an event immediately after registration could lead to the registration failing.
+* Fixed `-[CALayer renderInContext:]` crash.
+
 ## 3.2.6 (2017-06-15)
 
 ### Bug Fixes
