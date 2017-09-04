@@ -1,5 +1,24 @@
 # Intercom
 
+## 4.0.1 (2017-08-28)
+
+## Bug Fixes
+
+* Fixed an issue with Dynamic Frameworks and duplicate symbols. Fixed https://github.com/intercom/intercom-ios/issues/301
+* Fixed an issue where selecting GIFs caused a crash.
+
+
+## 4.0.0 (2017-08-25)
+
+## Enhancements
+
+* Now fully supports Xcode 9 and iOS 11.
+* Removed deprecated methods.
+
+## Bug Fixes
+
+* Made changes to ensure that device tokens are only submitted to Intercom if push notifications are enabled. This improves push notification stats.
+
 ## 3.2.12 (2017-08-10)
 
 ## Bug Fixes
